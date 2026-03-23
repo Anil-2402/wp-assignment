@@ -1,0 +1,1 @@
+EduLearn is a simple online learning platform built to make studying less messy and more structured. Instead of jumping between random resources, users can find courses, follow a clear path, and actually track their progress
