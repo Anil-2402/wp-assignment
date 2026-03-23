@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EduLearn - Register/Login</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">EduLearn</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="course-details.html">Course Details</a></li>
+        <li><a href="register.html">Register/Login</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="form-section">
+    <div class="form-container">
+      <h2>Register</h2>
+      <form id="registerForm">
+        <input type="text" id="name" placeholder="Enter Name" />
+        <input type="email" id="email" placeholder="Enter Email" />
+        <input type="password" id="password" placeholder="Enter Password" />
+        <input type="password" id="confirmPassword" placeholder="Confirm Password" />
+        <button type="submit" class="btn">Submit</button>
+      </form>
+      <p id="registerMessage"></p>
+    </div>
+
+    <div class="form-container">
+      <h2>Login</h2>
+      <form id="loginForm">
+        <input type="email" id="loginEmail" placeholder="Enter Email" />
+        <input type="password" id="loginPassword" placeholder="Enter Password" />
+        <button type="submit" class="btn">Login</button>
+      </form>
+      <p id="loginMessage"></p>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
